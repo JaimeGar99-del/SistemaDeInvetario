@@ -98,4 +98,7 @@ El programa sigue estos pasos en orden:
 ![Diagrama de flujo](diagrama_inventario_drawio.png)
 
 ---
+### Link al repositorio: [SystemInvertory](https://github.com/JaimeGar99-del/SistemaDeInvetario)
+
+---
 > 💡 **Nota:** Este proyecto fue desarrollado como práctica de fundamentos de programación en Python.
