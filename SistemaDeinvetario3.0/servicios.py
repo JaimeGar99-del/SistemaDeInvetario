@@ -38,7 +38,7 @@ def agregar_producto(inventario):
         cantidad_ingresada = input().strip()
         if cantidad_ingresada == '':
             print("La cantidad del producto no puede estar vacia, porfavor ingresar de nuevo:")
-        elif not cantidad_ingresada.isnumeric():
+        elif not cantidad_ingresada.replace('.', '', 1).isnumeric():
             print("La cantidad del producto debe ser un numero entero positivo, porfavor ingresar de nuevo:")
         elif int(cantidad_ingresada) <= 0:
             print("La cantidad del producto debe ser mayor a cero, intente de nuevo:")
